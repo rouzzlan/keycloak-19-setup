@@ -71,3 +71,25 @@ sh kc.sh start --auto-build --db mysql --db-url jdbc:mysql://192.168.2.21:3306/k
 ```shell
 sh bin/kc.sh build --db=mysql
 ```
+
+## Create service
+```sh
+sudo vim /etc/systemd/system/keycloak.service
+```
+add content
+```shell
+[Unit]
+Description=Keycloak Service
+After=syslog.target network.target mysql.service
+StartLimitIntervalSec=5
+
+[Service]
+User=root
+ExecStart=/opt/keycloak/launch-keycloak.sh
+
+[Install]
+WantedBy=multi-user.target
+```
+
+## Website
+[https://192.168.110.138:8443/](https://192.168.110.138:8443/)
