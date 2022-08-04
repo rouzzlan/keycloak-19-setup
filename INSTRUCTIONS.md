@@ -92,4 +92,13 @@ WantedBy=multi-user.target
 ```
 
 ## Website
-[https://192.168.110.138:8443/](https://192.168.110.138:8443/)
+instructions for accessing web UI
+```sh
+vim /etc/hosts 
+```
+add content
+```shell
+192.168.110.138 keycloak-dev-1.localdomain
+```
+
+[https://keycloak-dev-1.localdomain:8443/](https://keycloak-dev-1.localdomain:8443/)
