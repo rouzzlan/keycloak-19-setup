@@ -1,0 +1,50 @@
+[root@keycloak-1 rouslan]# history
+    1  exit
+    2  openssl req -x509 -newkey rsa:4096 -days 10000 -keyout ca-key.pem -out ca-cert.pem -nodes
+    3  ls
+    4  dnf update
+    5  vim /etc/yum.repos.d/mysql-community.repo
+    6  sudo dnf install mysql-community-server
+    7  rm /etc/yum.repos.d/mysql-community.repo
+    8  yum -y install @mysql
+    9  systemctl start mysqld
+   10  systemctl enable --now mysqld
+   11  systemctl status mysqld
+   12  mysql_secure_installation
+   13  mysql -u root -p
+   14  exit
+   15  ls /opt/keycloak/keycloak
+   16  vim launch-keycloak.sh
+   17  ls /opt/keycloak/certs/
+   18  vim launch-keycloak.sh
+   19  vim launch-keycloak.sh
+   20  ls
+   21  exit
+   22  ls
+   23  ./build-keycloak.sh
+   24  ./launch-keycloak.sh
+   25  exit
+   26  ./launch-keycloak.sh
+   27  shutdown
+   28  ls /opt/keycloak/
+   29  cp /home/rouslan/launch-keycloak.sh /opt/keycloak/
+   30  vim launch-keycloak.sh
+   31  cd /opt/keycloak/keycloak-18.0.2/
+   32  ls
+   33  cd lib/
+   34  ls
+   35  cd ..
+   36  ls
+   37  ls bin/
+   38  ls data/
+   39  ls
+   40  ls conf/
+   41  cd /etc/systemd/system/
+   42  ls
+   43  vim keycloak.service
+   44  ls
+   45  systemctl enable keycloak.service
+   46  shutdown
+   47  whoami
+   48  exit
+   49  history

@@ -1,0 +1,110 @@
+[rouslan@keycloak-1 ~]$ history
+    1  sudo dnf update
+    2  sudo poweroff
+    3  sudo vim /etc/ssh/sshd_config
+    4  sudo dnf install vim
+    5  sudo vim /etc/ssh/sshd_config
+    6  sudo systemctl restart ssh
+    7  sudo systemctl restart sshd
+    8  sudo shutdown
+    9  ip a
+   10  cd keycloak-18.0.2/
+   11  ls
+   12  sudo shutdown
+   13  vim /etc/hosts
+   14  sudo vim /etc/hosts
+   15  exit
+   16  sudo dnf install java-11-openjdk -y
+   17  cd /opt/
+   18  ls
+   19  sudo mkdir keycloak
+   20  ls
+   21  cd keycloak/
+   22  sudo mv ~/keycloak-18.0.2/ .
+   23  ls
+   24  sudo ln -s keycloak
+   25  ls
+   26  ls keycloak
+   27  rm keycloak
+   28  sudo rm keycloak
+   29  sudo ln -s keycloak-18.0.2/ keycloak
+   30  ls keycloak
+   31  java -version
+   32  ls
+   33  sudo mkdir certs
+   34  ls
+   35  cd certs/
+   36  ls
+   37  sudo su
+   38  openssl req -x509 -newkey rsa:4096 -days 10000 -keyout ca-key.pem -out ca-cert.pem -nodes
+   39  sudo su
+   40  ls
+   41  cd ~
+   42  ls
+   43  vim launch-keycloak.sh
+   44  sudo su
+   45  ls
+   46  vim build-keycloak.sh
+   47  vim launch-keycloak.sh
+   48  vim build-keycloak.sh
+   49  vim launch-keycloak.sh
+   50  vim build-keycloak.sh
+   51  sudo vim build-keycloak.sh
+   52  ls
+   53  sudo chmod +x build-keycloak.sh
+   54  sudo chmod +x launch-keycloak.sh
+   55  ls
+   56  sudo firewall-cmd --zone=public --permanent --add-port 8080/tcp
+   57  sudo firewall-cmd --zone=public --permanent --add-port 8443/tcp
+   58  sudo firewall-cmd --zone=public --permanent --add-port 3306/tcp
+   59  sudo firewall-cmd --reload
+   60  sudo firewall-cmd status
+   61  sudo firewall-cmd --state
+   62  ls
+   63  sudo su
+   64  ls
+   65  vim README
+   66  sudo dnf install htop
+   67  htop
+   68  sudo yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+   69  sudo dnf install htop
+   70  htop
+   71  exit
+   72  sudo su
+   73  ls
+   74  sudo ./launch-keycloak.sh
+   75  sudo shutdown
+   76  sudo dnf update
+   77  sudo poweroff
+   78  cd /opt/keycloak/
+   79  ls
+   80  pwd
+   81  sudo systemctl status mysqld.service
+   82  exit
+   83  ip a
+   84  vim ./launch-keycloak.sh
+   85  ls
+   86  sudo su
+   87  sudo systemctl status keycloak.service
+   88  sudo ./launch-keycloak.sh
+   89  systemctl daemon-reload
+   90  sudo systemctl daemon-reload
+   91  sudo systemctl enable keycloak
+   92  reboot
+   93  sudo shutdown
+   94  sudo systemctl status keycloak.service
+   95  sudo vim /etc/systemd/system/keycloak.service
+   96  sudo systemctl start keycloak.service
+   97  systemctl daemon-reload
+   98  sudo systemctl daemon-reload
+   99  sudo systemctl start keycloak.service
+  100  sudo systemctl status keycloak.service
+  101  sudo vim /etc/systemd/system/keycloak.service
+  102  sudo su
+  103  sudo vim /etc/systemd/system/keycloak.service
+  104  sudo systemctl daemon-reload
+  105  sudo systemctl start keycloak.service
+  106  sudo systemctl status keycloak.service
+  107  sudo vim /etc/systemd/system/keycloak.service
+  108  sudo shutdown
+  109  history
